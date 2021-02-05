@@ -22,8 +22,8 @@
         &lt;asset:javascript src="handlebars/example.hbs"/&gt;
         &lt;script type="text/javascript"&gt;
             var data = {"people": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"]};
-            var hbTemplate1 = Handlebars.templates['handlebars/example']
-            var outputData1 = hbTemplate1(data)
+            var hbTemplate1 = Handlebars.templates['handlebars/example'];
+            var outputData1 = hbTemplate1(data);
             $(function () {
                 $("#name-list1").html(outputData1);
             });
@@ -39,8 +39,8 @@
         &lt;asset:javascript src="handlebars/example.hbs"/&gt;
         &lt;script type="text/javascript"&gt;
             var data = {"people": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"]};
-            var hbTemplate2 = Handlebars.templates.example
-            var outputData12 = hbTemplate2(data)
+            var hbTemplate2 = Handlebars.templates.example;
+            var outputData12 = hbTemplate2(data);
             $(function () {
                 $("#name-list2").html(outputData2);
             });
